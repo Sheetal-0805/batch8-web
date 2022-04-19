@@ -1,0 +1,182 @@
+body{
+    background-color: #ffffff;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    line-height: 23px;
+    background-attachment: fixed;
+}
+
+.site-header{
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+.top-header{
+    position: relative;
+    z-index: 2;
+    background-color: #292929;
+    height: 37px;
+}
+.tob-bar {
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+}
+.tob-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.socil-media a {
+    border-right: 1px solid #fff;
+    /* border-left: 1px solid #fff; */
+    padding: 0px 5px;
+    
+}
+.socil-media a:first-child {
+    border-left: 1px solid #fff;
+}
+.socil-media a:last-child {
+    border-right:0px;
+}
+
+.timer-col{
+    border-right: #fff;
+    padding: 0px 5px;
+}
+.counter-wrap{
+    display: flex;
+}
+.navbar{
+    text-decoration: none;
+    display: inline-flex;
+}
+.btn{
+    padding: 0px 5px;
+
+}
+.lower-header{
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 0 0 5px 5px;
+}
+.background-image{
+    background-image: url(assest/image/sea.jpg);
+}
+.breadcrumb{
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.secondary-bar {
+    padding: 20px 0;
+    background: url(../image/sea.jpg) repeat-x #fafafa;
+    border-bottom: #e8e8e8 1px solid;
+}
+.secondary-bar span.big .secondary-bar .basic-link {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.big {
+    font-size: 200%;
+}
+.secondary-bar .nav-pills {
+    float: left!important;
+}
+.background-image{
+    background: url(../image/sea.jpg);
+}
+.page-header .breadcrumb {
+    padding-top: 40px;
+}
+.page-header .breadcrumb {
+    padding: 0;
+    margin: 0;
+    padding-top:80px;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.breadcrumb > .active {
+    color: #fff;
+    font-weight: 700;
+}
+.double-border {
+    position: relative;
+    width: 100%;
+    height: 3px;
+}
+.secondary-bar {
+    padding: 20px 0;
+    background: url(../images/wave-high.png) repeat-x #fafafa;
+    border-bottom: #e8e8e8 1px solid;
+}
+.secondary-bar span.big, .secondary-bar .basic-link {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.secondary-bar .nav-pills {
+    float: left!important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.content {
+    padding: 40px 0 50px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.border-cols {
+    margin: 30px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.border-cols > div {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #e8e8e8;
+}
+#about-join .icon-block {
+    margin-top: 40px;
+}
+.icon-block {
+    text-align: center;
+}
+/* .icon-block .icon {
+    width: 120px;
+    height: 120px;
+    line-height: 135px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    color: #ffffff;
+    margin-bottom: 25px;
+} */
+.label-danger {
+    background-color: #d9534f;
+}
